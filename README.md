@@ -49,16 +49,16 @@ accessionN  blastn -db accessionN -query markers.fasta  -out accessionN.nofmt  -
 
 #### Step 6. Parsing the blast output result using Biopython's NCBIStandalone and BlastParser 
 
-Using Python script: Parse_BLAST_output.py 
+Using Python script: `Parse_BLAST_output.py` 
 
 #### Step 7. Generating the genotyping matrix and filter for markers that were missing in more than 60% of accessions and those with minor allele frequency less than 5 percent 
 
-Using Python script: Genotype_matrix.py
+Using Python script: `Genotype_matrix.py`
 
 
 #### Step 8. Construct UPGMA tree using Biopython (UPGMA-make-from-Trasposed.py script)
 
-Using Python script: UPGMA_tree.py
+Using Python script: `UPGMA_tree.py`
 
 #### Step 9. Visualization of tree on iTOL ([https://itol.embl.de/](https://itol.embl.de/))
 
