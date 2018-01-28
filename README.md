@@ -28,7 +28,7 @@ For getting the best hit for each marker sequence, we used the BLAST+ command-li
 
 #### Step 3. Generate single line fasta files (*.fa) and tag the contigs name with accession number as prefix 
 
-Using python script: Single_Line_Fasta.py
+Using python script: `Single_Line_Fasta.py`
 
 #### Step 4. Make blast database for each assembly
 
